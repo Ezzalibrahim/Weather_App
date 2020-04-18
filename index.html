@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>WeatherApp</title>
+</head>
+
+<body>
+    <div class="container my-3 mx-auto">
+
+        <h1 class="text-muted text-center my-3">WeatherApp</h1>
+        <form class="change-location my-4 text-center text-muted">
+            <label for="city">Please Enter a Location</label>
+            <input type="text" name="city" class="form-control p-4 ">
+        </form>
+
+        <div class="card shadow-lg rounded d-none">
+            <img src="../../Acme_Web/img/programming.png" class="time card-img-top">
+            <!-- <img src="https://via.placeholder.com/400" class="time card-img-top"> -->
+            <div class="bg-light mx-auto text-center icon-s">
+                <img src="" alt="" class="icon"> </div>
+            <div class="text-muted text-uppercase text-center details">
+                <h5 class="my-3">City name</h5>
+                <div class="my-3">Weather condition</div>
+                <div class="display-4 my-4">
+                    <span>temp</span>
+                    <span>&deg;C</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+    <script src="script/forecast_Api.js"></script>
+    <script src="script/dom_app.js"></script>
+</body>
+
+</html>
