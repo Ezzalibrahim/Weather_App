@@ -1,0 +1,22 @@
+body {
+    background-color: #eeedec;
+    letter-spacing: 0.2em;
+    font-size: 0.8em;
+}
+
+.container {
+    max-width: 500px;
+	max-height:400px;
+    /* box-shadow: 5px 5px rgba(62, 70, 47, 0.3); */
+}
+
+.imgapp {
+    width: auto;
+    height: 240px;
+}
+
+.icon-s {
+    position: relative;
+    top: -50px;
+    border-radius: 50%;
+}
