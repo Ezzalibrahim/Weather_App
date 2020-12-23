@@ -91,6 +91,3 @@
     //         updateUi(data2);
     //     }
     // });
-    window.onload = function () {
-        alert("yes")
-    }
